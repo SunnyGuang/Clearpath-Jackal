@@ -17,3 +17,23 @@ Install Ubuntu and ROS (Tested on Ubuntu 20.04 and ROS Noetic)
 # Launch Rviz:
 
 `roslaunch jackal_viz view_robot.launch`
+
+![](https://github.com/SunnyGuang/Clearpath-Jackal/blob/main/jackal_msgs/rviz-jackal-laser.png)
+
+# Launch Mapping:
+Using gammping for mapping:
+
+`roslaunch jackal_navigation gmapping_demo.launch`
+
+To visualize during mapping:
+
+`roslaunch jackal_viz view_robot.launch config:=gmapping`
+
+# Launch Navigation:
+Navigation demo:
+
+`roslaunch jackal_navigation odom_navigation_demo.launch`
+
+Rviz:
+
+`roslaunch jackal_viz view_robot.launch config:=navigation`
