@@ -8,6 +8,10 @@ Install Ubuntu and ROS (Tested on Ubuntu 20.04 and ROS Noetic)
 
 `sudo apt install ros-noetic-jackal-desktop`
 
+`sudo apt-get install ros-noetic-sick-tim`
+
+`sudo apt-get install ros-noetic-flir-camera-description`
+
 # Launch Gazebo Simulation:
 
 `roslaunch jackal_gazebo jackal_world.launch config:=front_laser`
