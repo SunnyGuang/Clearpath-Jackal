@@ -10,8 +10,10 @@ Install Ubuntu and ROS (Tested on Ubuntu 20.04 and ROS Noetic)
 
 # Launch Gazebo Simulation:
 
-'roslaunch jackal_gazebo jackal_world.launch config:=front_laser'
+`roslaunch jackal_gazebo jackal_world.launch config:=front_laser`
+
+![](https://github.com/SunnyGuang/Clearpath-Jackal/blob/main/jackal_msgs/gazebo-jackal-race.png)
 
 # Launch Rviz:
 
-'roslaunch jackal_viz view_robot.launch'
+`roslaunch jackal_viz view_robot.launch`
