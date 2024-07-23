@@ -37,3 +37,5 @@ Navigation demo:
 Rviz:
 
 `roslaunch jackal_viz view_robot.launch config:=navigation`
+
+Project is still updating, if you have any questions, please feel free to leave your question in "Issue".
