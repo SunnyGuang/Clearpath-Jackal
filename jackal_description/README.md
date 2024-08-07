@@ -172,7 +172,7 @@ export JACKAL_BB2_PARENT="front_mount"
 export JACKAL_BB2_OFFSET="0 0 0"
 export JACKAL_BB2_RPY="0 0 0"
 ```
-
+ 
 ## Flir Blackfly
 ```bash
 export JACKAL_BLACKFLY=1
