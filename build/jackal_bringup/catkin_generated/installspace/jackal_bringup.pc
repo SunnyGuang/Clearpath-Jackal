@@ -1,0 +1,8 @@
+prefix=/home/sunny/jackal_ws/install
+
+Name: jackal_bringup
+Description: Description of jackal_bringup
+Version: 0.7.11
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
