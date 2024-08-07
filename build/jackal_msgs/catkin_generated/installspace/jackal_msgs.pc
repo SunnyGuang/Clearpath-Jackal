@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: jackal_msgs
+Description: Description of jackal_msgs
+Version: 0.8.10
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: std_msgs message_runtime

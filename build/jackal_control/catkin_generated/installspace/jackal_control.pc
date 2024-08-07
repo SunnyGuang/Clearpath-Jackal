@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: jackal_control
+Description: Description of jackal_control
+Version: 0.8.10
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
