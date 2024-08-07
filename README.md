@@ -43,3 +43,21 @@ Rviz:
 `roslaunch jackal_viz view_robot.launch config:=navigation`
 
 Project is still updating, if you have any questions, please feel free to leave your question in "Issue".
+
+
+# launch jackal robot
+
+export ROS master and client
+
+export lidar:
+
+```bash
+export JACKAL_LASER=1
+export JACKAL_LASER_MODEL=ust10
+```
+```bash
+export JACKAL_LASER_TOPIC="front/scan"
+export JACKAL_LASER_HOST="192.168.131.20"
+```
+
+launch jackal description, slam or navigation, viz
